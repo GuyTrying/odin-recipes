@@ -1,8 +1,16 @@
 
-.par {
-    font-style: Sans-serif;
-    background-color: black;
+.par,
+.pal {
+    font-style: Sans-serif, "serif", times;
     color: aqua;
+}
+
+.par {
+    background-color: black;
+}
+
+.pal {
+background-color: blueviolet;
 }
 
 .pic {
@@ -10,5 +18,4 @@
     height: 250px;
     width: auto;
     border-color: black;
-
 }
